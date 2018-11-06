@@ -1,3 +1,7 @@
+/******************************
+    React Social Card Styling
+******************************/
+
 :root {
   --height: 430px;
   --width: 550px;
@@ -20,6 +24,10 @@
   border-radius: 5px;
   margin: 0 20px;
 }
+
+/******************************
+          MAIN
+******************************/
 
 .main {
   display: grid;
@@ -55,6 +63,10 @@
 
 }
 
+/******************************
+          Credit Box styles
+******************************/
+
 .credit-box {
   grid-row: 3 / 4;
   grid-column: 1 / -1;
@@ -83,6 +95,10 @@
   width: 46px;
   margin: 2px;
 }
+
+/******************************
+          Message styling
+******************************/
 
 .message {
   display: grid;
